@@ -5,11 +5,13 @@
  * Return: Always 0 (Success/Correction)
  */
 int main(void)
+
 {
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet(++)
-			{ putcgar(alphabet);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet(++))
+			{ 
+			putchar(alphabet);
 			}
 
 		putchar('\n');
