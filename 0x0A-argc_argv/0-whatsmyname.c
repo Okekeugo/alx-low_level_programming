@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - is a function that prints the name.
@@ -9,9 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-int i = argc - argc;
+	(void) argc;
+	printf("%s\n", argv[0]);
 
-printf("%s\n", argv[i]);
-
-return (0);
+	return (0);
 }
