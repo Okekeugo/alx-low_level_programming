@@ -93,7 +93,7 @@ int countWords(char *s)
 	{
 		if (isSpace(*s) && wordOn)
 			wordOn = 0;
-											else if (!isSpace(*s) && !wordOn)
+		else if (!isSpace(*s) && !wordOn)
 		{
 			wordOn = 1;
 			words++;
