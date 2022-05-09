@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *_calloc -allocated memoria for nmeb elemn de zise bytes
@@ -20,7 +20,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (i = 0; i < nmemb * size; i++)
 		p[i] = 0;
-
+	
 	return (p);
 
 }
